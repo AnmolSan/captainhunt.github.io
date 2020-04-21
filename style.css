@@ -1,0 +1,180 @@
+body{
+    background-color: white;
+    color: black;
+    font-family:"Cinzel Decorative";
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6em;
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#main-header{
+    background-color: coral;
+    color: darkblue;
+    width: 100%;
+    height: 50px;
+
+}
+#main-header h1{
+    margin: 3px 0 0 0 ;
+}
+#main-header span{
+    padding: 15px;
+    margin: 0;
+}
+#O{
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 38px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#navbar{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 45px;
+
+}
+.nav{
+    display:flex;
+}
+#nav ul{    
+    margin:0 3rem 0 0;
+	padding:0;
+	list-style:none;
+	display:flex;
+	flex:1 0 0%;
+	justify-content:space-between
+
+}
+#navbar li{
+    display: inline;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display:block;
+	padding:10px 10px;
+       
+}
+#showcase{
+    position: relative;
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    background-color: black;
+}
+#showcase h1{
+    text-align: center;
+    font-size: 3rem;
+    z-index: 1;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+.video-container{
+    position: absolute;
+    width: 100%;
+    padding: 0 auto;
+    margin: 0;
+}
+#main{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+#main h1{
+    padding: 15px;
+}
+#main ul{
+    list-style: none;
+}
+#main ul li{
+    display: inline;
+    padding: 10px;
+    font-size: auto;
+}
+#main ul li a{
+    text-decoration: none;
+    font: bold 18px "Cinzel Decorative";
+}
+
+#main a:hover, #navbar a:hover{
+    text-decoration: underline coral;
+}
+#grid-head{
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+}
+.grid-item{
+    padding: 20px;
+    text-align: center;
+}
+.icon img{
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#social-link{
+    width: 200px;
+    height: 60px;
+    margin: 5px auto auto auto;
+    align-items: center;
+
+}
+#social-link img{
+    width: 60px; 
+    height: 60px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3px 0 0 0; 
+}
+
+#main-footer{
+    background-color: lightcoral;
+    font: 14px bold black;
+    font-family:"Cinzel Decorative";
+    line-height: 1.6em;
+
+}
+#main-footer h3{
+    text-align: center;
+    padding: 15px 0 0 0;
+}
+.row{
+    display: flex;
+
+}
+.column{
+    flex: 33.33%;
+}
+#main-footer p{
+    text-align: center;
+    padding: 30px 20px 0 20px;
+    margin: auto;
+    vertical-align: 100%;
+}
